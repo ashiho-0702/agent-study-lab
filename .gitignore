@@ -12,6 +12,9 @@ target/
 ### 本地配置（含真实 api-key，不入库）###
 config.properties
 
+### 运行时生成的状态文件（记忆库等）###
+runtime/
+
 ### Eclipse ###
 .apt_generated
 .classpath
