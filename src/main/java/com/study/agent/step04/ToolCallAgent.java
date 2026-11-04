@@ -99,7 +99,6 @@ public interface ToolCallAgent extends Agent {
 
     public static void main(String[] args) {
         OpenAiChatModel model = Models.openAiOrNull();
-
         System.out.println(new Impl(model).chat("帮我查一下湛江天气，然后推荐穿搭"));
     }
 }

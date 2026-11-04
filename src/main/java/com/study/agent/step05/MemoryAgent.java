@@ -123,7 +123,7 @@ public interface MemoryAgent extends Agent {
 
         private String readMemoryText() {
             if (database.isEmpty()) return "(空)";
-            return String.join("\n", database.keySet().stream().map(key -> key + " = " + database.get("key")).toList());
+            return String.join("\n", database.keySet().stream().map(key -> key + " = " + database.get(key)).toList());
         }
 
         //关键词召回
